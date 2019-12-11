@@ -8,7 +8,7 @@ if ($currentUser) {
 ?>
 <?php include 'header.php' ?>
 <h1>Welcome to website ^^</h1>
-<h2>BTCN09</h2>
+<h2>Dcore Breaker</h2>
 <?php if ($currentUser) : ?>
 <p>Chào mừng <?php echo $currentUser['fullname'] ?> đã trở lại.</p>
 <?php foreach ($newFeeds as $post) : ?>
